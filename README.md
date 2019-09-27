@@ -1,4 +1,4 @@
-This repository houses a Homebrew Tap for public-facing Prometheus Research applications.
+This repository houses a [Homebrew](https://brew.sh) Tap for public-facing Prometheus Research applications.
 
 To use it:
 

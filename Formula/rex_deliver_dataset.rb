@@ -2,16 +2,16 @@
 class RexDeliverDataset < Formula
   desc "A tool for delivering datasets to a RexRegistry system."
   homepage "https://github.com/prometheusresearch/rex_deliver_dataset"
-  version "0.0.4"
+  version "0.0.5"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/prometheusresearch/rex_deliver_dataset/releases/download/0.0.4/rex_deliver_dataset_0.0.4_macos_64bit.tar.gz"
-    sha256 "70500a5073c125e3fd1e526593610bc15a2e979596152e8778a2a1c5070c5b12"
+    url "https://github.com/prometheusresearch/rex_deliver_dataset/releases/download/0.0.5/rex_deliver_dataset_0.0.5_macos_64bit.tar.gz"
+    sha256 "ba9ec8e0ce3496117ce115302168b8059d66f85e8b6b097afaf9e56187498b71"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/prometheusresearch/rex_deliver_dataset/releases/download/0.0.4/rex_deliver_dataset_0.0.4_linux_64bit.tar.gz"
-      sha256 "01ac7de57bee3ca44621b5edb028dda5a911409bbe0d80e648ab17e56db5bbd4"
+      url "https://github.com/prometheusresearch/rex_deliver_dataset/releases/download/0.0.5/rex_deliver_dataset_0.0.5_linux_64bit.tar.gz"
+      sha256 "b385ab9c20450efec6356051107221b5db31ec682e7ba09b610711caf4615fa3"
     end
   end
 
